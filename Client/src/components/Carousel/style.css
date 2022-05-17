@@ -1,0 +1,28 @@
+.img-carousel{
+    margin: 5px 0 5px 0 !important;
+}
+
+.table-home{
+    margin-bottom: 50px !important;
+}
+
+.w-home{
+    width: 75%;
+}
+
+@media (max-width: 1072px) {
+    .w-home{
+        width: 90%;
+    }
+}
+
+@media(max-width: 767px){
+
+    .img-carousel{
+        margin: 0 0 0 0 !important;
+    }
+
+    .w-home{
+        width: 100%;
+    }
+}

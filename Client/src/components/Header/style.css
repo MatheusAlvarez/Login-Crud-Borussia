@@ -1,0 +1,33 @@
+.header-color{
+    background-color: #FDE100;
+}
+
+.img-logo{
+    width: 12%;
+}
+
+.header-navegation{
+    margin-left: 80px;
+    font-size: 22px;
+}
+
+.margin-black{
+    background-color: black;
+    height: 10px;
+}
+
+
+@media (max-width: 1199px){
+    .header-navegation{
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 991px){
+    .header-navegation{
+        margin-left: 0px;
+    }
+    .logo-header{
+        padding-left: 0px;
+    }
+}

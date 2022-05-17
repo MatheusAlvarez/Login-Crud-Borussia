@@ -1,0 +1,35 @@
+.card-container {
+  width: 70%;
+  border: 3px solid #000000;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.register-container-card{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+
+.card-cartegory{
+  border-left: 2px solid;
+  border-color: #000000;
+  margin-top: 5px;
+  color: #fff;
+  font-size: 30px;
+}
+
+.card-title {
+  display: inline;
+  margin-top: 3px;
+}
+
+.card-gols {
+  margin-top: 8px;
+}
+
+.card-container:hover {
+  background-color: #FDE100;
+}

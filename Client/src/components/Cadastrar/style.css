@@ -1,0 +1,61 @@
+.cad-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+  
+.register-container {
+    padding: 10px 20px;
+    width: 50%;
+    height: max-content;
+    margin-top: 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+  
+.register-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: fantasy;
+}
+  
+.register-input {
+    display: block;
+    margin: 10px auto;
+    width: 70%;
+    padding: 7px 0;
+}
+  
+.register-button {
+    display: block;
+    margin: 10px auto;
+    padding: 7px 7px;
+    border-color: #000;
+}
+
+.register-button:hover {
+    background-color: #FDE100;
+}
+
+.card-container-title {
+    width: 70%;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  .register-container-card-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+  }
+  
+  .card-nome {
+    display: inline;
+    margin-top: 3px;
+  }
+  
+  .card-gols {
+    margin-top: 8px;
+  }
